@@ -14,5 +14,5 @@ amoy = "https://rpc-amoy.polygon.technology"
 polygon = "https://polygon-rpc.com"
 
 [etherscan]
-amoy = { key = "${AMOY_ETHERSCAN_API_KEY}" }
-polygon = { key = "${POLYGON_ETHERSCAN_API_KEY}" }
+amoy = { key = "${AMOY_ETHERSCAN_API_KEY}", url = "https://api-amoy.polygonscan.com/api" }
+polygon = { key = "${POLYGON_ETHERSCAN_API_KEY}", url = "https://api.polygonscan.com/api" }
